@@ -1,0 +1,1 @@
+import{_ as t,a as n,e as o,r as s}from"./index.0363f4c0.js";const _={},a={class:"content-wrapper mx-lg-auto"};function r(e,c){return n(),o("section",a,[s(e.$slots,"default",{},void 0,!0)])}const d=t(_,[["render",r],["__scopeId","data-v-34575ab8"]]);export{d as C};
