@@ -9,7 +9,7 @@
       href="https://fonts.googleapis.com/css?family=Zen Kaku Gothic New:wght@300;400;500;7000"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/santademo/assets/index.0363f4c0.js"></script>
+    <script type="module" crossorigin src="/santademo/assets/index.aedae38e.js"></script>
     <link rel="stylesheet" href="/santademo/assets/index.4425eeb4.css">
   </head>
   <body>
@@ -17,3 +17,12 @@
     
   </body>
 </html>
+<script>
+  (function () {
+    let redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect !== location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
